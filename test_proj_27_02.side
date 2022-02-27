@@ -1,0 +1,77 @@
+{
+  "id": "b6f6158c-6c97-4284-b5da-753080ab5c25",
+  "version": "2.0",
+  "name": "test_proj",
+  "url": "http://demowebshop.tricentis.com",
+  "tests": [{
+    "id": "b5ec0ba6-d009-4cce-b09b-5ee72e069fcc",
+    "name": "auth",
+    "commands": [{
+      "id": "b482053c-c122-48d9-9a59-b3a715f77d39",
+      "comment": "",
+      "command": "open",
+      "target": "http://demowebshop.tricentis.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2f79eeb-4cc2-4d96-bf2c-af109436b2ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "889x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb381cbf-5f4e-4b97-8779-61a97b814ede",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ico-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62aa4824-ef41-474a-896e-51eaa6f0f178",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='Email']",
+      "targets": [],
+      "value": "m@m.ru"
+    }, {
+      "id": "a0199242-3693-4924-9cb8-9ef426cde5d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba50ac02-2663-4c43-ad49-b9dfc14799a4",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='Password']",
+      "targets": [],
+      "value": "19#10mm"
+    }, {
+      "id": "0d09ef87-c529-4a60-b77f-e5005fd6e0c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c31f1339-82bd-47b1-a69b-09709cac7ba4",
+      "comment": "",
+      "command": "assertText",
+      "target": "/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a",
+      "targets": [],
+      "value": "m@m.ru"
+    }]
+  }],
+  "suites": [{
+    "id": "85ea46ad-5d46-4434-a279-b9820acfdbb4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://demowebshop.tricentis.com/"],
+  "plugins": []
+}
