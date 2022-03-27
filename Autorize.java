@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
 public class Autorize {
+    public static void main(String[] args) throws InterruptedException
+    {
     System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
     WebDriver driver = new ChromeDriver();
     driver.get("http://demowebshop.tricentis.com/");
